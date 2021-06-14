@@ -1,0 +1,13 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.appContainer{
+  padding: 5%;
+  display: grid;
+  max-width: 500px;
+}

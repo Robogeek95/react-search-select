@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  color: #000000;
+}
+.selected {
+  background: #e3e4eb;
+  border-radius: 5px;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-box {
+  background: #f3f3f5;
+  border: 1px solid #28293d85;
+  width: 100%;
+}
+
+.search-box {
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+
+.option {
+  padding: 5px;
+  position: relative;
+}
+
+.option:hover {
+  background: #5ac8fa;
+  color: #ffffff;
+}
+
+.option input {
+  width: 100%;
+  font-size: 16px;
+  position: absolute;
+  border: 8px solid #2f3640;
+  height: 100%;
+  transition: all 0.4s;
+  opacity: 0;
+}
